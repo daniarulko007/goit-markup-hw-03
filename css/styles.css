@@ -29,23 +29,60 @@ body {
 button {
   font-family: inherit;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 .link {
   text-decoration: none;
   color: currentColor;
 }
-
 .list {
   list-style-type: none;
 }
-/*reset end
 .visually-hidden {
-}*/
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  max-width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 
 /*!COMPONENTS STYLES*/
 
 /*!HEADER*/
 .header {
   background-color: var(--white-cl);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-navigation {
 }
@@ -117,6 +154,10 @@ button {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
 }
+.hero-container {
+  background-color: var(--navy-blue-cl);
+  padding: 188px 472px 292px 472px;
+}
 .hero-btn {
   color: var(--white-cl);
   background-color: var(--iris-cl);
@@ -138,6 +179,8 @@ button {
 /*?ADVANTAGES*/
 .advantages {
   background-color: var(--white-cl);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .visually-hidden {
 }
@@ -164,6 +207,8 @@ button {
 /*?TEAM*/
 .team {
   background-color: var(--cloud--cl);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   color: var(--navy-blue-cl);
@@ -172,6 +217,7 @@ button {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .title {
 }
@@ -181,8 +227,10 @@ button {
 }
 .team-item {
   background-color: var(--white-cl);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-avatar {
+  margin-bottom: 32px;
 }
 .team-name {
   color: var(--navy-blue-cl);
@@ -191,6 +239,7 @@ button {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-position {
   color: var(--slate-cl);
@@ -198,20 +247,34 @@ button {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  margin-bottom: 32px;
 }
 
 /*?PORTFOLIO*/
 .project {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-.visually-hidden {
+.project-title {
+  color: var(--navy-blue-cl);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .project-list {
 }
 .list {
 }
 .project-item {
+  border: 1px solid var(--cornflower-cl);
+  background: var(--white-cl);
+  text-align: center;
 }
 .project-card {
+  margin-bottom: 32px;
 }
 .project-name {
   color: var(--navy-blue-cl);
@@ -225,11 +288,16 @@ button {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  margin-bottom: 32px;
 }
 
-/*!FOOTER*/
+/*!FOOTER - відступи доробити*/
 .footer {
   background: var(--navy-blue-cl);
+}
+.footer-container {
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   color: var(--iris-cl);
@@ -239,6 +307,7 @@ button {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
+  margin-bottom: 17.5px;
 }
 .footer-logo-cloud {
   color: var(--cloud--cl);
