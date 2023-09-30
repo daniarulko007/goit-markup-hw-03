@@ -96,7 +96,6 @@ img {
 
 .header-container {
   display: flex;
-  gap: 332px;
   width: 1158px;
 }
 
@@ -353,6 +352,7 @@ img {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .project-position {
   color: var(--slate-cl);
