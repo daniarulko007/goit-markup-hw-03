@@ -177,18 +177,16 @@ img {
   background-color: var(--iris-cl);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin: 0 auto;
   margin-top: 48px;
-
-  display: inline-flex;
+  display: block;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
 .btn {
 }
 
@@ -200,17 +198,19 @@ img {
 
 /*?ADVANTAGES*/
 .advantages {
-  background-color:
-  padding-top: 120px;
-  padding-bottom: 120px;
+  background-color: var(--white-cl);
 }
 .visually-hidden {
 }
 .advantages-list {
+  padding: 120px 156px;
+  display: flex;
+  gap: 24px;
 }
 .list {
 }
 .advantages-item {
+  width: calc((100% - 24px * 3) / 4);
 }
 .advantages-subtitle {
   color: var(--navy-blue-cl);
@@ -234,20 +234,23 @@ img {
 }
 .team-title {
   color: var(--navy-blue-cl);
-  text-align: center;
   font-size: 36px;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  text-align: center;
 }
 .title {
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .list {
 }
 .team-item {
+  width: calc((100% - 24px * 3) / 4);
   background-color: var(--white-cl);
   border-radius: 0px 0px 4px 4px;
 }
@@ -287,10 +290,14 @@ img {
   margin-bottom: 72px;
 }
 .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .list {
 }
 .project-item {
+  width: calc((100% - 24px * 2) / 3);
   border: 1px solid var(--cornflower-cl);
   background: var(--white-cl);
   text-align: center;
@@ -313,13 +320,14 @@ img {
   margin-bottom: 32px;
 }
 
-/*!FOOTER - відступи доробити*/
+/*!FOOTER*/
 .footer {
   background: var(--navy-blue-cl);
 }
 .footer-container {
   padding-top: 101.5px;
   padding-bottom: 100px;
+  padding-left: 156px;
 }
 .footer-logo {
   color: var(--iris-cl);
@@ -329,12 +337,12 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
-  margin-bottom: 17.5px;
 }
 .footer-logo-cloud {
   color: var(--cloud--cl);
 }
 .footer-text {
+  margin-top: 17.5px;
   color: var(--cloud--cl);
   font-size: 16px;
   font-style: normal;
