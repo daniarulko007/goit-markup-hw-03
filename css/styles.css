@@ -83,15 +83,18 @@ img {
   background-color: var(--white-cl);
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
   gap: 332px;
+  width: 1158px;
 }
 .header-navigation {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
+  align-items: center;
 }
 .navigation {
 }
@@ -105,6 +108,7 @@ img {
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
   padding-left: 156px;
+  margin-right: 76px;
 }
 .header-logo-navyblue {
   color: var(--navy-blue-cl);
@@ -122,6 +126,7 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .header-menu-link:hover {
   color: var(--ocean-cl);
