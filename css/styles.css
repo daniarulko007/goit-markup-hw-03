@@ -287,6 +287,9 @@ img {
 .team-avatar {
   margin-bottom: 32px;
 }
+.team-container {
+  padding: 32px 0;
+}
 .team-name {
   color: var(--navy-blue-cl);
   text-align: center;
@@ -323,6 +326,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 .list {
 }
@@ -332,9 +336,17 @@ img {
   background: var(--white-cl);
   text-align: center;
 }
+
 .project-card {
-  margin-bottom: 32px;
 }
+
+.project-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 .project-name {
   color: var(--navy-blue-cl);
   font-size: 20px;
@@ -365,6 +377,8 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-logo-cloud {
   color: var(--cloud--cl);
@@ -376,6 +390,4 @@ img {
   font-style: normal;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  display: inline-block;
-  margin-bottom: 16px;
 }
