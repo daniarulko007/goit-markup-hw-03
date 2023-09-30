@@ -26,9 +26,11 @@ body {
   color: var(--slate-cl);
   background-color: var(--white-cl);
 }
+
 button {
   font-family: inherit;
 }
+
 p,
 h1,
 h2,
@@ -39,22 +41,27 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
+
 img {
   display: block;
 }
+
 .link {
   text-decoration: none;
   color: currentColor;
 }
+
 .list {
   list-style-type: none;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -67,6 +74,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .container {
   width: 100%;
   max-width: 1470px;
@@ -85,19 +93,23 @@ img {
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header-container {
   display: flex;
   gap: 332px;
   width: 1158px;
 }
+
 .header-navigation {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
   align-items: center;
 }
+
 .navigation {
 }
+
 .header-logo {
   display: flex;
   color: var(--iris-cl);
@@ -110,6 +122,7 @@ img {
   padding-left: 156px;
   margin-right: 76px;
 }
+
 .header-logo-navyblue {
   color: var(--navy-blue-cl);
 }
@@ -118,8 +131,10 @@ img {
   display: flex;
   gap: 40px;
 }
+
 .header-menu-item {
 }
+
 .header-menu-link {
   color: var(--navy-blue-cl);
   font-size: 16px;
@@ -128,9 +143,11 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
+
 .header-menu-link:hover {
   color: var(--ocean-cl);
 }
+
 .header-menu-link:focus {
   color: var(--ocean-cl);
 }
@@ -138,15 +155,19 @@ img {
 .contacts-data {
   font-style: normal;
 }
+
 .contacts-list {
   display: flex;
   gap: 40px;
   padding-right: 156px;
 }
+
 .list {
 }
+
 .contacts-item {
 }
+
 .contacts-link {
   color: var(--slate-cl);
   font-size: 16px;
@@ -165,6 +186,7 @@ img {
 /*?HERO*/
 .hero {
   background-color: var(--navy-blue-cl);
+  padding: 188px 0;
 }
 .hero-title {
   color: var(--white-cl);
@@ -172,10 +194,10 @@ img {
   font-size: 56px;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 .hero-container {
   background-color: var(--navy-blue-cl);
-  padding: 188px 472px 292px 472px;
 }
 .hero-btn {
   color: var(--white-cl);
@@ -184,10 +206,12 @@ img {
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   margin: 0 auto;
   margin-top: 48px;
   display: block;
-  padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -204,18 +228,18 @@ img {
 /*?ADVANTAGES*/
 .advantages {
   background-color: var(--white-cl);
+  padding: 120px 0;
 }
 .visually-hidden {
 }
 .advantages-list {
-  padding: 120px 156px;
   display: flex;
   gap: 24px;
 }
 .list {
 }
 .advantages-item {
-  width: calc((100% - 24px * 3) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .advantages-subtitle {
   color: var(--navy-blue-cl);
@@ -223,6 +247,7 @@ img {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .advantages-item-text {
   color: var(--slate-cl);
@@ -328,11 +353,9 @@ img {
 /*!FOOTER*/
 .footer {
   background: var(--navy-blue-cl);
+  padding: 100px 0;
 }
 .footer-container {
-  padding-top: 101.5px;
-  padding-bottom: 100px;
-  padding-left: 156px;
 }
 .footer-logo {
   color: var(--iris-cl);
@@ -353,4 +376,6 @@ img {
   font-style: normal;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  display: inline-block;
+  margin-bottom: 16px;
 }
