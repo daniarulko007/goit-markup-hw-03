@@ -81,7 +81,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 /*!COMPONENTS STYLES*/
@@ -98,6 +97,7 @@ img {
 .header-container {
   display: flex;
   gap: 76px;
+  width: 1158px;
 }
 
 .header-navigation {
@@ -119,6 +119,7 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-navyblue {
@@ -139,6 +140,7 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover {
@@ -238,6 +240,11 @@ img {
 .visually-hidden {
 }
 
+.advantages-container {
+  padding-right: 156px;
+  padding-left: 156px;
+}
+
 .advantages-list {
   display: flex;
   gap: 24px;
@@ -269,10 +276,11 @@ img {
 /*?TEAM*/
 .team {
   background-color: var(--cloud--cl);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
+.team-container {
+  padding: 120px 150px;
+}
 .team-title {
   color: var(--navy-blue-cl);
   font-size: 36px;
@@ -303,7 +311,7 @@ img {
   margin-bottom: 32px;
 }
 
-.team-container {
+.team-name-container {
   padding: 32px 0;
 }
 
@@ -328,8 +336,7 @@ img {
 
 /*?PORTFOLIO*/
 .project {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 156px;
 }
 
 .project-title {
@@ -393,6 +400,7 @@ img {
 }
 
 .footer-container {
+  padding-left: 156px;
 }
 
 .footer-logo {
