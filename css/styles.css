@@ -276,10 +276,11 @@ img {
 /*?TEAM*/
 .team {
   background-color: var(--cloud--cl);
+  padding: 120px 0;
 }
 
 .team-container {
-  padding: 120px 150px;
+  padding-left: 150px;
 }
 .team-title {
   color: var(--navy-blue-cl);
@@ -336,7 +337,11 @@ img {
 
 /*?PORTFOLIO*/
 .project {
-  padding: 120px 156px;
+  padding: 120px 0 120px 0;
+}
+
+.project-container {
+  padding-left: 156px;
 }
 
 .project-title {
@@ -369,7 +374,7 @@ img {
 .project-card {
 }
 
-.project-container {
+.project-name-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
