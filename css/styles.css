@@ -76,11 +76,10 @@ img {
 }
 
 .container {
-  width: 100%;
-  max-width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
+  max-width: 1158px;
+  height: 100%;
 }
 
 /*!COMPONENTS STYLES*/
@@ -97,7 +96,6 @@ img {
 .header-container {
   display: flex;
   gap: 76px;
-  width: 1158px;
 }
 
 .header-navigation {
@@ -105,6 +103,7 @@ img {
   flex-grow: 1;
   justify-content: space-between;
   align-items: center;
+  margin-right: 256px;
 }
 
 .navigation {
@@ -119,7 +118,6 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /*0.54/18*/
   text-transform: uppercase;
-  margin-right: 76px;
 }
 
 .header-logo-navyblue {
@@ -309,7 +307,6 @@ img {
 }
 
 .team-avatar {
-  margin-bottom: 32px;
 }
 
 .team-name-container {
@@ -341,7 +338,6 @@ img {
 }
 
 .project-container {
-  padding-left: 156px;
 }
 
 .project-title {
