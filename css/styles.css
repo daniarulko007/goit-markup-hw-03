@@ -95,7 +95,6 @@ img {
 
 .header-container {
   display: flex;
-  gap: 76px;
 }
 
 .header-navigation {
@@ -240,7 +239,6 @@ img {
 }
 
 .advantages-container {
-  padding-left: 156px;
 }
 
 .advantages-list {
@@ -278,7 +276,6 @@ img {
 }
 
 .team-container {
-  padding-left: 150px;
 }
 .team-title {
   color: var(--navy-blue-cl);
@@ -372,9 +369,7 @@ img {
 
 .project-name-container {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .project-name {
@@ -401,7 +396,6 @@ img {
 }
 
 .footer-container {
-  padding-left: 156px;
 }
 
 .footer-logo {
@@ -421,7 +415,6 @@ img {
 }
 
 .footer-text {
-  margin-top: 17.5px;
   color: var(--cloud--cl);
   font-size: 16px;
   font-style: normal;
