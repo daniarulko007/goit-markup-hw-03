@@ -102,7 +102,7 @@ img {
   flex-grow: 1;
   justify-content: space-between;
   align-items: center;
-  margin-right: 256px;
+  margin-right: 332px;
 }
 
 .navigation {
@@ -283,8 +283,8 @@ img {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .title {
@@ -326,7 +326,6 @@ img {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 
 /*?PORTFOLIO*/
@@ -387,7 +386,6 @@ img {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 
 /*!FOOTER*/
